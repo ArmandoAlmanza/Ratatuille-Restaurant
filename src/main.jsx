@@ -1,8 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import App from "./App";
-import "./Styles/app.scss";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./Styles/app.scss";
+import App from "./App";
 import NotFound from "./Components/NotFound/NotFound";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
