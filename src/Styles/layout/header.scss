@@ -1,0 +1,29 @@
+.site__header {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include tablet {
+        flex-direction: row;
+        justify-content: space-between;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+
+    &.main {
+      @include tablet{
+        max-width: none;
+        padding: 2rem 3rem;
+        justify-content: space-around;
+      }
+    }
+}
+.header__content{
+  background-color: $bgcolor;
+}
+.logo__text {
+    color: #a0937d;
+    span {
+        color: #9A8194;
+    }
+}
