@@ -1,0 +1,18 @@
+.btn {
+	display: block;
+	background-color: $brown;
+	width: 50%;
+	margin: 0 auto;
+	padding: 1rem 2rem;
+	color: $blac;
+	border-radius: 15px;
+	transition: all .15s ease-in-out;
+	&:hover{
+		cursor: pointer;
+		background-color: $purple;
+	}
+}
+
+.btn__menu {
+	width: 300px;
+}

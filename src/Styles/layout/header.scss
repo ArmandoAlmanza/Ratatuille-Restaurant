@@ -1,4 +1,19 @@
 .site__header {
+    &.main {
+        background-image: url("https://images.unsplash.com/photo-1522336572468-97b06e8ef143?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1476&q=80");
+        height: 60vh;
+        .link {
+            color: $white;
+        }
+        @include tablet {
+            height: 40vh;
+            max-width: none;
+            padding: 0 3rem;
+            justify-content: space-around;
+        }
+    }
+}
+.header__content {
     padding: 2rem;
     display: flex;
     flex-direction: column;
@@ -9,21 +24,46 @@
         max-width: 800px;
         margin: 0 auto;
     }
-
-    &.main {
-      @include tablet{
-        max-width: none;
-        padding: 2rem 3rem;
-        justify-content: space-around;
-      }
-    }
-}
-.header__content{
-  background-color: $bgcolor;
 }
 .logo__text {
-    color: #a0937d;
+    color: $brown;
     span {
-        color: #9A8194;
+        color: $purple;
     }
 }
+
+.header__info {
+    text-align: center;
+    color: $white;
+    p {
+      font-size: 1.5rem;
+    }
+
+    @include tablet{
+      color: $blac;
+    }
+}
+
+/* span {
+  display: block;
+  font-family: monospace;
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 34ch;
+  animation: typing 2s steps(34), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+}
+
+@keyframes typing {
+from {
+  width: 0;
+}
+}
+
+@keyframes blink {
+50% {
+  border-color: transparent;
+}
+}
+ */
