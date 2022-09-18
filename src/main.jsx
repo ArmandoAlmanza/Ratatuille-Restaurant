@@ -5,6 +5,8 @@ import "./Styles/app.scss";
 import App from "./App";
 import NotFound from "./Components/NotFound/NotFound";
 import Header from "./Components/Header/Header";
+import Menu from "./Components/Menu/Menu";
+import Footer from "./Components/Footer/Footer";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
     <React.StrictMode>
@@ -12,9 +14,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
             <Header />
             <Routes>
                 <Route path="/" element={<App />} />
+                <Route path="/menu" element={<Menu />} />
                 {/* Path to no where */}
                 <Route path="*" element={<NotFound />} />
             </Routes>
+            <Footer />
         </BrowserRouter>
     </React.StrictMode>
 );

@@ -22,7 +22,9 @@ const Header = () => {
                 <div className="header__info">
                     <h2>Welcome to Ratatuille Restaurant!!</h2>
                     <p>We have the best dishes in the county</p>
-                    <Link to="/menu" className="btn btn__menu">See our menu!</Link>
+                    <Link to="/menu" className="btn btn__menu">
+                        See our menu!
+                    </Link>
                 </div>
             ) : (
                 ""
