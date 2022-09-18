@@ -14,10 +14,34 @@ const Footer = () => {
                 Ratatuille <span>Restaurant</span>
             </h2>
             <div className="social">
-                <FaFacebookSquare className="social__icon" />
-                <FaInstagram className="social__icon" />
-                <FaTwitterSquare className="social__icon" />
-                <FaTiktok className="social__icon" />
+                <a
+                    href="https://www.facebook.com/ArmyAlmanza"
+                    target={"_blank"}
+                    className="link"
+                >
+                    <FaFacebookSquare className="social__icon" />
+                </a>
+                <a
+                    href="https://www.instagram.com/jamon_sad/"
+                    target={"_blank"}
+                    className="link"
+                >
+                    <FaInstagram className="social__icon" />
+                </a>
+                <a
+                    href="https://twitter.com/JamonSad03"
+                    target={"_blank"}
+                    className="link"
+                >
+                    <FaTwitterSquare className="social__icon" />
+                </a>
+                <a
+                    href="https://www.tiktok.com/@morthumi"
+                    target={"_blank"}
+                    className="link"
+                >
+                    <FaTiktok className="social__icon" />
+                </a>
             </div>
             <Navbar />
         </div>

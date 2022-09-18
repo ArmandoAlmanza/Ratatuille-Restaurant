@@ -26,6 +26,7 @@
     }
 }
 .logo__text {
+    margin: 1rem 0;
     color: $brown;
     span {
         color: $purple;
@@ -36,11 +37,11 @@
     text-align: center;
     color: $white;
     p {
-      font-size: 1.5rem;
+        font-size: 1.5rem;
     }
 
-    @include tablet{
-      color: $blac;
+    @include tablet {
+        color: $blac;
     }
 }
 

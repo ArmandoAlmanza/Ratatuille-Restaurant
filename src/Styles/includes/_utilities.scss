@@ -1,19 +1,40 @@
 .btn {
-	display: block;
-	text-align: center;
-	background-color: $brown;
-	width: 50%;
-	margin: 0 auto;
-	padding: 1rem 2rem;
-	color: $blac;
-	border-radius: 15px;
-	transition: all .15s ease-in-out;
-	&:hover{
-		cursor: pointer;
-		background-color: $purple;
-	}
+    display: block;
+    text-align: center;
+    background-color: $brown;
+    width: 50%;
+    margin: 1.4rem auto;
+    padding: 1rem 2rem;
+    color: $blac;
+    border-radius: 15px;
+    transition: all 0.15s ease-in-out;
+    &:hover {
+        cursor: pointer;
+        background-color: $purple;
+    }
 }
 
 .btn__menu {
-	width: 30rem;
+    width: 30rem;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.subtitle {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.title__description {
+    font-size: 1.2rem;
+	text-align: center;
+}
+
+.nm__bottom{
+	margin-bottom: 0;
 }

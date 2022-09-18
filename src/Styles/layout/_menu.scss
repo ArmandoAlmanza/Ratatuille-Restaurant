@@ -1,0 +1,41 @@
+.sellers__container {
+	display: flex;
+	flex-direction: column;
+	@include tablet{
+		flex-direction: row;
+	}
+}
+
+.card{
+	text-align: center;
+	border-radius: 15px;
+	background-color: $purple;
+	display: flex;
+	padding: .5rem 2rem;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 2rem;
+	@include tablet{
+		max-width: 50rem;
+		margin-bottom: 0;
+		margin-right: 2rem;
+	}
+
+	&:last-of-type{
+		margin-right: 0;
+	}
+}
+
+.card__image{
+	height: 20rem;
+	width: 26rem;
+}
+
+.card__description {
+	text-align: left;
+}
+
+.card__title{
+	font-size: 2rem;
+	margin: 1.2rem 0;
+}
