@@ -1,15 +1,7 @@
-db.menu.insert({
-	"dish": "Hamburger",
-	"description": " popular sandwich made from ground meats that are formed into a patty, cooked, and placed between two halves of a bun",
-	"price": 37.55,
-	"image": "https://i.imgur.com/ZlEzF7i.jpg",
-	"avaliable": true,
-	"ingredients": [
-		"Meat",
-		"Bread",
-		"Tomato",
-		"Onion",
-		"Ketchup",
-		"Mayo"
-	]
+db.blog.insert({
+	"title": "You should eat here?",
+	"description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus sit amet sem consectetur sem varius lacinia condimentum sit amet risus. Pellentesque blandit lacinia tincidunt. Duis consectetur venenatis magna, vel tincidunt nibh varius sit amet. Pellentesque et tincidunt orci. Donec pulvinar eros urna, eu varius leo placerat eget. Suspendisse vitae dapibus metus. Aliquam pretium dui ac nulla vehicula convallis. Suspendisse congue ullamcorper mauris.Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In hac habitasse platea dictumst. Proin turpis sem, tincidunt nec lacinia facilisis, iaculis eget elit. Ut facilisis tempor erat, sit amet elementum velit malesuada quis. Sed ullamcorper suscipit ipsum faucibus egestas. Duis ut fringilla tortor. Vivamus hendrerit et elit nec commodo. In dictum nunc leo. Morbi cursus justo non luctus luctus. Aliquam gravida enim sed purus euismod, vitae molestie nisi semper. Suspendisse semper leo dolor, sit amet mollis metus viverra ornare.",
+	"author": "Armando Almanza ",
+	"avatar": "https://i.imgur.com/Cu1r04t.png",
+	"creationDate": new Date()
 })
