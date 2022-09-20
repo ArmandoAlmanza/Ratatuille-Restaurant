@@ -1,4 +1,4 @@
-import gif from "./assets/restaurant_gif.gif";
+import gif from "/assets/restaurant_gif.gif";
 import Menu from "./Components/Menu/Menu";
 
 function App() {
