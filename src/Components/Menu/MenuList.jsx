@@ -13,7 +13,7 @@ const MenuList = () => {
             <div className="sellers__container">
                 <Dish
                     title="Hamburger"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="/assets/burger.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
@@ -22,7 +22,7 @@ const MenuList = () => {
                 />
                 <Dish
                     title="Pizza"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="/assets/burger.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
@@ -31,7 +31,7 @@ const MenuList = () => {
                 />
                 <Dish
                     title="Pasta"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="/assets/burger.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
@@ -40,7 +40,7 @@ const MenuList = () => {
                 />
                 <Dish
                     title="Pastrami"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="/assets/burger.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
