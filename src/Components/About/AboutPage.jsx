@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutPage = () => {
     return (
         <div className="about__container container about__container__page">
@@ -39,6 +41,9 @@ const AboutPage = () => {
                         numquam dolor cumque quia, optio ipsum vitae similique
                         libero beatae aspernatur odit reprehenderit.
                     </p>
+					<Link to="/" className="btn btn__about">
+                        Get back to the landing page
+                    </Link>
                 </div>
             </div>
         </div>
