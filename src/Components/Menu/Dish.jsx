@@ -9,5 +9,5 @@ export const Dish = ({ title, imageUrl, description }) => {
                 <p className="card__description">{description}</p>
             </div>
         </div>
-    );
+    );  
 };

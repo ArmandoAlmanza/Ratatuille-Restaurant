@@ -1,6 +1,33 @@
 import { Link } from "react-router-dom";
 import { Dish } from "./Dish";
 
+const uri =
+    "https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg";
+const desc =
+    "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quas possimus repellat inventore doloribus distinctio minus iure adipisci mollitia deleniti necessitatibus nesciunt repudiandae sint dignissimos nihil velit incidunt alias labore illo.";
+const dishes = [
+    {
+        title: "Hamburger",
+        imageUrl: uri,
+        description: desc,
+    },
+    {
+        title: "Pizza",
+        imageUrl: uri,
+        description: desc,
+    },
+    {
+        title: "Pasta",
+        imageUrl: uri,
+        description: desc,
+    },
+    {
+        title: "Pastrami",
+        imageUrl: uri,
+        description: desc,
+    },
+];
+
 const MenuList = () => {
     return (
         <div className="menu__list">
@@ -11,43 +38,16 @@ const MenuList = () => {
             </p>
 
             <div className="sellers__container">
-                <Dish
-                    title="Hamburger"
-                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
-                    description=" Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quas, possimus repellat inventore doloribus
-                            distinctio minus iure adipisci mollitia deleniti
-                            necessitatibus nesciunt repudiandae sint dignissimos
-                            nihil velit incidunt alias labore illo."
-                />
-                
-                <Dish
-                    title="Pizza"
-                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
-                    description=" Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quas, possimus repellat inventore doloribus
-                            distinctio minus iure adipisci mollitia deleniti
-                            necessitatibus nesciunt repudiandae sint dignissimos
-                            nihil velit incidunt alias labore illo."
-                />
-                <Dish
-                    title="Pasta"
-                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
-                    description=" Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quas, possimus repellat inventore doloribus
-                            distinctio minus iure adipisci mollitia deleniti
-                            necessitatibus nesciunt repudiandae sint dignissimos
-                            nihil velit incidunt alias labore illo."
-                />
-                <Dish
-                    title="Pastrami"
-                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
-                    description=" Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Quas, possimus repellat inventore doloribus
-                            distinctio minus iure adipisci mollitia deleniti
-                            necessitatibus nesciunt repudiandae sint dignissimos
-                            nihil velit incidunt alias labore illo."
-                />
+                {dishes.map((dish) => {
+                    return (
+                        <Dish
+                            title={dish.title}
+                            imageUrl={dish.imageUrl}
+                            description={dish.description}
+                            key={dish.title}
+                        />
+                    );
+                })}
             </div>
 
             <h3 className="subtitle">
