@@ -1,0 +1,28 @@
+.about__content {
+    @include grid(1, 2rem);
+    @include tablet {
+        @include grid(2, 2rem);
+    }
+}
+
+.about__image {
+    height: 70rem;
+    margin: 0 auto;
+    grid-row-start: 2;
+    @include tablet {
+        width: 80rem;
+        grid-row-start: auto;
+    }
+}
+
+.about__page__image{
+	@include tablet{
+		height: 71.7rem;
+	}
+}
+
+.about__container__page{
+	@include tablet{
+		margin: 4.45rem auto;
+	}
+}

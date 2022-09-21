@@ -17,7 +17,12 @@
 .btn__menu {
     width: 30rem;
 }
-
+.btn__about {
+    width: 95%;
+    @include tablet {
+        width: 80%;
+    }
+}
 .title {
     font-size: 2.5rem;
     text-align: center;
@@ -32,9 +37,13 @@
 
 .title__description {
     font-size: 1.2rem;
-	text-align: center;
+    text-align: center;
 }
 
-.nm__bottom{
-	margin-bottom: 0;
+.title__big {
+    font-size: 4rem;
+}
+
+.nm__bottom {
+    margin-bottom: 0;
 }

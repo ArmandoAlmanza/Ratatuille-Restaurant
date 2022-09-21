@@ -13,16 +13,17 @@ const MenuList = () => {
             <div className="sellers__container">
                 <Dish
                     title="Hamburger"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
                             necessitatibus nesciunt repudiandae sint dignissimos
                             nihil velit incidunt alias labore illo."
                 />
+                
                 <Dish
                     title="Pizza"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
@@ -31,7 +32,7 @@ const MenuList = () => {
                 />
                 <Dish
                     title="Pasta"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
@@ -40,7 +41,7 @@ const MenuList = () => {
                 />
                 <Dish
                     title="Pastrami"
-                    imageUrl="/src/assets/burger.jpg"
+                    imageUrl="https://media-cdn.tripadvisor.com/media/photo-p/19/49/1b/d4/caption.jpg"
                     description=" Lorem ipsum dolor, sit amet consectetur adipisicing
                             elit. Quas, possimus repellat inventore doloribus
                             distinctio minus iure adipisci mollitia deleniti
