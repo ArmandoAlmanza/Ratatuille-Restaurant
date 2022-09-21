@@ -28,7 +28,7 @@ const AboutMain = () => {
                         vitae similique libero beatae aspernatur odit
                         reprehenderit.
                     </p>
-                    <Link to="/menu" className="btn btn__about">
+                    <Link to="/about" className="btn btn__about">
                         Know more About us!!!
                     </Link>
                 </div>
