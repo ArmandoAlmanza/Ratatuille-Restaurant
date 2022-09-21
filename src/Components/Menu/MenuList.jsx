@@ -11,21 +11,25 @@ const dishes = [
         title: "Hamburger",
         imageUrl: uri,
         description: desc,
+        color: "yellow",
     },
     {
         title: "Pizza",
         imageUrl: uri,
         description: desc,
+        color: "red",
     },
     {
         title: "Pasta",
         imageUrl: uri,
         description: desc,
+        color: "orange",
     },
     {
         title: "Pastrami",
         imageUrl: uri,
         description: desc,
+        color: "purple",
     },
 ];
 
@@ -45,6 +49,7 @@ const MenuList = () => {
                             title={dish.title}
                             imageUrl={dish.imageUrl}
                             description={dish.description}
+                            color={dish.color}
                             key={dish.title}
                         />
                     );
