@@ -1,6 +1,7 @@
 const AboutPage = () => {
     return (
         <div className="about__container container about__container__page">
+            <h1 className="title title__big">Come and eat whit us!!</h1>
             <div className="about__content">
                 <img
                     src="https://images.unsplash.com/photo-1551218808-94e220e084d2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
@@ -38,7 +39,6 @@ const AboutPage = () => {
                         numquam dolor cumque quia, optio ipsum vitae similique
                         libero beatae aspernatur odit reprehenderit.
                     </p>
-                    <h1 className="title title__big">Come and eat whit us!!</h1>
                 </div>
             </div>
         </div>

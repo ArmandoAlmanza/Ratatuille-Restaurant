@@ -17,12 +17,6 @@
 
 .about__page__image{
 	@include tablet{
-		height: 71.7rem;
-	}
-}
-
-.about__container__page{
-	@include tablet{
-		margin: 4.45rem auto;
+		height: 70rem;
 	}
 }
