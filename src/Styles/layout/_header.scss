@@ -1,13 +1,15 @@
 .site__header {
     &.main {
-        background-image: url("/src/assets/backgroundMovil.avif");
+        background-image: url("/src/assets/headerMovil.jpg");
         background-repeat: no-repeat;
+        background-position: center center;
         height: 60vh;
         .link {
             color: $white;
         }
         @include tablet {
-            height: 40vh;
+            background-image: url("/src/assets/headerDesktop.jpg");
+            height: 56vh;
             max-width: none;
             padding: 0 3rem;
             justify-content: space-around;
@@ -35,15 +37,13 @@
 }
 
 .header__info {
+    margin-top: 4rem;
     text-align: center;
     color: $white;
     p {
         font-size: 1.5rem;
     }
 
-    @include tablet {
-        color: $blac;
-    }
 }
 
 /* span {

@@ -14,10 +14,6 @@ const Navbar = () => {
                 {" "}
                 Menu{" "}
             </Link>
-            <Link to="/blog" className="link">
-                {" "}
-                Blog{" "}
-            </Link>
         </nav>
     );
 };
