@@ -14,8 +14,7 @@ const dishes = [
         color: "yellow",
     },
     {
-        title: "Pizza",
-       
+        title: "Pizza", 
         description: desc,
         color: "red",
     },
@@ -27,7 +26,6 @@ const dishes = [
     },
     {
         title: "Pastrami",
-       
         description: desc,
         color: "purple",
     },
