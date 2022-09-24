@@ -1,4 +1,5 @@
 import About from "./Components/About/About";
+import Blogs from "./Components/Blogs/Blogs";
 import Menu from "./Components/Menu/Menu";
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
         <div className="container">
             <About />
             <Menu />
+            <Blogs />
         </div>
     );
 }

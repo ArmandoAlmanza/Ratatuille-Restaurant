@@ -4,6 +4,7 @@ import {
     FaInstagram,
     FaTwitterSquare,
     FaTiktok,
+    FaPinterest,
 } from "react-icons/fa";
 
 const Footer = () => {
@@ -41,6 +42,13 @@ const Footer = () => {
                     className="link"
                 >
                     <FaTiktok className="social__icon" />
+                </a>
+                <a
+                    href="https://www.pinterest.com.mx/JamonSad/"
+                    target={"_blank"}
+                    className="link"
+                >
+                    <FaPinterest className="social__icon" />
                 </a>
             </div>
             <Navbar />

@@ -1,0 +1,27 @@
+.userContent{
+	display: flex;
+	flex-direction: column;
+}
+
+.userImage{
+	border-radius: 50%;
+	width: 5rem;
+	height: 4rem;
+	margin-left: 2.5rem;
+}
+
+.userInfo{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.blog__card {
+	background-color: $purple;
+}
+
+.blogs{
+	@include tablet{
+		@include grid(4, 2rem)
+	}
+}
