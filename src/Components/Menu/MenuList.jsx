@@ -9,22 +9,22 @@ const desc =
 const dishes = [
     {
         title: "Hamburger",
-        imageUrl: uri,
+        
         description: desc,
     },
     {
         title: "Pizza",
-        imageUrl: uri,
+       
         description: desc,
     },
     {
         title: "Pasta",
-        imageUrl: uri,
+        
         description: desc,
     },
     {
         title: "Pastrami",
-        imageUrl: uri,
+       
         description: desc,
     },
 ];
